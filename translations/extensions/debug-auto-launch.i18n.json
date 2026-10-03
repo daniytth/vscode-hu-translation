@@ -9,7 +9,7 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"displayName": "Node hibakeresés automatikus csatolása",
+			"displayName": "Node Hibakeresés Automatikus Csatolása",
 			"description": "Segédcsomag, ami elvégzi a folyamatok automatikus csatolását, ha a node-hibakereső kiegészítők nem aktívak.",
 			"debug.node.autoAttach.description": "Node-hibakereső automatikus csatolása, ha a node.js elindul hibakeresési módban az integrált terminálból.",
 			"debug.node.autoAttach.disabled.description": "Az automatikus csatolás le van tiltva, és nem jelenik meg az állapotsoron.",
@@ -18,8 +18,8 @@
 			"toggle.auto.attach": "Automatikus csatlakozás be- és kikapcsolása"
 		},
 		"dist/extension": {
-			"status.text.auto.attach.on": "Automatikus csatlakozás: bekapcsolva",
-			"status.text.auto.attach.off": "Automatikus csatlakozás: kikapcsolva",
+			"status.text.auto.attach.on": "Automatikus Csatlakozás: bekapcsolva",
+			"status.text.auto.attach.off": "Automatikus Csatlakozás: kikapcsolva",
 			"status.tooltip.auto.attach": "Automatikus csatlakozás node.js-folyamatokhoz hibakeresési módban"
 		}
 	}

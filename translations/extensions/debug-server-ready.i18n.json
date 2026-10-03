@@ -9,20 +9,20 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"displayName": "Server Ready Action",
-			"description": "Open URI in browser if server under debugging is ready.",
-			"debug.server.ready.serverReadyAction.description": "Act upon a URI when a server program under debugging is ready (indicated by sending output of the form 'listening on port 3000' or 'Now listening on: https://localhost:5001' to the debug console.)",
-			"debug.server.ready.action.description": "What to do with the URI when the server is ready.",
-			"debug.server.ready.action.openExternally.description": "Open URI externally with the default application.",
-			"debug.server.ready.action.debugWithChrome.description": "Start debugging with the 'Debugger for Chrome'.",
-			"debug.server.ready.pattern.description": "Server is ready if this pattern appears on the debug console. The first capture group must include a URI or a port number.",
-			"debug.server.ready.uriFormat.description": "A format string used when constructing the URI from a port number. The first '%s' is substituted with the port number.",
-			"debug.server.ready.webRoot.description": "Value passed to the debug configuration for the 'Debugger for Chrome'."
+			"displayName": "Szerverre Kész Művelet",
+			"description": "Nyisd meg az URI-t a böngészőben, ha a hibakeresés alatt álló szerver készen áll.",
+			"debug.server.ready.serverReadyAction.description": "Végezzen műveletet egy URI-n, amikor a hibakeresés alatt álló szerverprogram készen áll (amit a „listening on port 3000” vagy „Now listening on: https://localhost:5001” formátumú kimenet elküldése jelez a hibakereső konzolra).",
+			"debug.server.ready.action.description": "Mit kell tenni az URI-val, amikor a szerver készen áll?",
+			"debug.server.ready.action.openExternally.description": "Az URI-t külső alkalmazással nyissa meg az alapértelmezett alkalmazással.",
+			"debug.server.ready.action.debugWithChrome.description": "Kezdje el a hibakeresést a 'Debugger for Chrome' segítségével.",
+			"debug.server.ready.pattern.description": "A szerver akkor áll készen, ha ez a minta megjelenik a hibakereső konzolon. Az első rögzítési csoportnak tartalmaznia kell egy URI-t vagy egy portszámot.",
+			"debug.server.ready.uriFormat.description": "A portszámból az URI létrehozásakor használt formázási karakterlánc. Az első '%s' helyére a portszám kerül beillesztésre.",
+			"debug.server.ready.webRoot.description": "A 'Debugger for Chrome' hibakeresési konfigurációjának átadott érték."
 		},
 		"dist/extension": {
-			"server.ready.nocapture.error": "Format uri ('{0}') uses a substitution placeholder but pattern did not capture anything.",
-			"server.ready.placeholder.error": "Format uri ('{0}') must contain exactly one substitution placeholder.",
-			"server.ready.chrome.not.installed": "The action '{0}' requires the '{1}' extension."
+			"server.ready.nocapture.error": "Az uri ('{0}') formátum helyettesítő helyőrzőt használ, de a minta nem rögzített semmit.",
+			"server.ready.placeholder.error": "Az uri formátumnak ('{0}') pontosan egy helyettesítő helyőrzőt kell tartalmaznia.",
+			"server.ready.chrome.not.installed": "A '{0}' művelethez a '{1}' kiegészítő szükséges."
 		}
 	}
 }
